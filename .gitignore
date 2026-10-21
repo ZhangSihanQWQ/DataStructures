@@ -1,0 +1,44 @@
+# C/C++ 编译产物
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# 常见构建目录
+build/
+cmake-build-*/
+bin/
+obj/
+
+# 调试器、分析器和覆盖率输出
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.prof
+core
+core.*
+
+# CMake 生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+install_manifest.txt
+
+# 编辑器和操作系统生成文件
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# 临时测试输出
+*.log
+*.tmp
